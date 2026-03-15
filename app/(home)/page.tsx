@@ -5,13 +5,7 @@ export default function Home() {
       style={{ backgroundColor: "#151E2C" }}
     >
       <div className="mt-16 flex flex-col items-center gap-4 text-center px-6">
-        <h1
-          className="text-white text-4xl font-bold tracking-tight sm:text-5xl"
-          style={{
-            fontFamily:
-              "'Google Sans Display', 'Google Sans', Arial, sans-serif",
-          }}
-        >
+        <h1 className="text-white text-4xl font-bold tracking-tight sm:text-5xl">
           Coming Soon
         </h1>
         <p className="text-lg max-w-md" style={{ color: "#8a9ab5" }}>
