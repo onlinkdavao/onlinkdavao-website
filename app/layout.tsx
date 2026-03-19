@@ -19,6 +19,13 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "/",
   },
+  icons: {
+    icon: [
+      { url: "/assets/logo-dark.png", media: "(prefers-color-scheme: dark)" },
+      { url: "/assets/logo-light.png", media: "(prefers-color-scheme: light)" },
+    ],
+    apple: "/assets/logo-dark.png",
+  },
   openGraph: {
     type: "website",
     url: baseUrl,
