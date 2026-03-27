@@ -1,0 +1,8 @@
+{
+  "name": "onlinkdavao-sheets-proxy",
+  "private": true,
+  "scripts": {
+    "dev": "wrangler dev src/index.ts",
+    "deploy": "wrangler deploy"
+  }
+}

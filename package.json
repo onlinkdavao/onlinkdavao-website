@@ -1,11 +1,13 @@
 {
-  "name": "onlinkdavao-website",
+  "name": "onlinkdavao.org",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "deploy": "next build && wrangler pages deploy out",
+    "deploy:worker": "cd worker && bunx wrangler deploy",
+    "deploy:pages": "next build && wrangler pages deploy out",
     "lint": "eslint"
   },
   "dependencies": {
