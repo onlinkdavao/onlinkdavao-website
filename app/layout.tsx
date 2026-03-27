@@ -2,8 +2,9 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 const head = {
-  title: "Onlink Davao — Coming Soon",
-  description: "Onlink Davao is coming soon. Stay tuned!",
+  title: "Onlink Davao — Your Link to Davao",
+  description:
+    "Discover events, connect with the community, and stay updated on everything happening in Davao City.",
 };
 
 const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://onlinkdavao.org";
